@@ -291,6 +291,21 @@
       $(selector).chosen(config[selector]);
     }
   </script>
+  
+      $(function() {
+        $('#colorselector').change(function(){
+            $('.colors').hide();
+            $('#' + $(this).val()).show();
+        });
+    });
+     
+      $('.chosen-select').on('change', function() {
+      $('#di').show();
+    });
+  
+  
   </form>
+<div id="di" style="display:none" >Hello World</div>  
+  
 </body>
 </html>
