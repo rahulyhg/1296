@@ -290,18 +290,12 @@
     for (var selector in config) {
       $(selector).chosen(config[selector]);
     }
-  </script>
-  
-      $(function() {
-        $('#colorselector').change(function(){
-            $('.colors').hide();
-            $('#' + $(this).val()).show();
-        });
-    });
-     
-      $('.chosen-select').on('change', function() {
+    $('.chosen-select').on('change', function() {
       $('#di').show();
     });
+  </script>
+     
+      
   
   
   </form>
