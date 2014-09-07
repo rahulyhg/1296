@@ -12,6 +12,10 @@
         $('.box').hide();
         $('#div' + $(this).val()).show();
      });
+     $('#dropdown1').change(function() {
+        $('.box').hide();
+        $('#div' + $(this).val()).show();
+     });
     });
   </script>
 
@@ -25,7 +29,7 @@
   <option value="area3">DIV Area 3</option>
  </select>
  
- <select id="dropdown" name="dropdown">
+ <select id="dropdown1" name="dropdown">
   <option value="0">Choose</option>
   <option value="area4">DIV Area 1</option>
   <option value="area5">DIV Area 2</option>
