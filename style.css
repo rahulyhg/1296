@@ -201,3 +201,7 @@ i { font-style: italic; }
   padding-left: 27px;
   text-decoration: none;
 }
+
+.tog {
+min-width: 100%;
+}
